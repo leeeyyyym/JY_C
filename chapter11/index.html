@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="MBTI 성격유형 테스트 게임을 매 차시마다 조금씩 완성해 나가면서 C언어의 핵심 문법을 익히는 7차시 프로젝트 기반 교재입니다. 파이썬 경험을 발판 삼아 C언어의 본질을 자연스럽게 이해할 수 있도록 구성하였습니다.">
+        <meta name="description" content="파이썬 경험이 있는 고등학생을 대상으로, MBTI 성격유형 테스트 게임을 만들면서 C언어의 핵심 문법을 9차시에 걸쳐 완성하는 프로젝트 기반 학습 교재입니다.">
       
       
         <meta name="author" content="Created with EduFlow">
@@ -15,8 +15,6 @@
       
         <link rel="prev" href="../chapter10/">
       
-      
-        <link rel="next" href="../chapter12/">
       
       
         
@@ -27,7 +25,7 @@
     
     
       
-        <title>구조체 (1) — 플레이어 정보를 하나로 묶자 - C언어 기초 with MBTI 게임</title>
+        <title>MBTI 게임 최종 완성 — 모든 것을 하나로! - C언어 기초 with MBTI 게임(#1)</title>
       
     
     
@@ -94,7 +92,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="상단/헤더">
-    <a href=".." title="C언어 기초 with MBTI 게임" class="md-header__button md-logo" aria-label="C언어 기초 with MBTI 게임" data-md-component="logo">
+    <a href=".." title="C언어 기초 with MBTI 게임(#1)" class="md-header__button md-logo" aria-label="C언어 기초 with MBTI 게임(#1)" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -108,13 +106,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            C언어 기초 with MBTI 게임
+            C언어 기초 with MBTI 게임(#1)
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              구조체 (1) — 플레이어 정보를 하나로 묶자
+              MBTI 게임 최종 완성 — 모든 것을 하나로!
             
           </span>
         </div>
@@ -280,13 +278,35 @@
     
     
       <li class="md-tabs__item">
+        <a href="../chapter06/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Part 3 - 코드를 정리하자 — 함수
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
         <a href="../chapter07/" class="md-tabs__link">
           
   
   
     
   
-  Part 3 - 게임을 체계적으로 — 함수와 배열
+  Part 4 - 데이터를 묶어서 관리하자 — 배열과 구조체
 
         </a>
       </li>
@@ -304,13 +324,13 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../chapter09/" class="md-tabs__link">
           
   
   
     
   
-  Part 4 - 한 단계 더 — 구조체와 C언어의 깊은 세계 맛보기
+  Part 5 - 한 발짝 더 — 포인터·비트연산자 맛보기와 게임 완성
 
         </a>
       </li>
@@ -340,13 +360,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="네비게이션" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="C언어 기초 with MBTI 게임" class="md-nav__button md-logo" aria-label="C언어 기초 with MBTI 게임" data-md-component="logo">
+    <a href=".." title="C언어 기초 with MBTI 게임(#1)" class="md-nav__button md-logo" aria-label="C언어 기초 with MBTI 게임(#1)" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    C언어 기초 with MBTI 게임
+    C언어 기초 with MBTI 게임(#1)
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -452,7 +472,7 @@
   <span class="md-ellipsis">
     
   
-    Hello, C! — 파이썬에서 C언어로 건너가기
+    C언어, 파이썬과 뭐가 다를까?
   
 
     
@@ -480,7 +500,7 @@
   <span class="md-ellipsis">
     
   
-    변수와 자료형 — 데이터를 담는 그릇의 크기가 정해져 있다고?
+    변수와 자료형 — 이름표를 붙이자
   
 
     
@@ -508,7 +528,7 @@
   <span class="md-ellipsis">
     
   
-    입출력 마스터 — 플레이어 이름을 입력받자
+    입출력 — MBTI 게임의 첫 화면 만들기
   
 
     
@@ -537,8 +557,6 @@
   
     
     
-      
-        
       
         
       
@@ -603,7 +621,7 @@
   <span class="md-ellipsis">
     
   
-    조건문 — 네 선택에 따라 결과가 달라진다
+    조건문 — 선택에 따라 달라지는 반응
   
 
     
@@ -631,7 +649,7 @@
   <span class="md-ellipsis">
     
   
-    반복문 (1) — 같은 질문 패턴을 반복하자
+    반복문 — 질문을 여러 개 돌리자
   
 
     
@@ -644,6 +662,69 @@
   
 
               
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 - 코드를 정리하자 — 함수
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 3 - 코드를 정리하자 — 함수
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -659,7 +740,7 @@
   <span class="md-ellipsis">
     
   
-    반복문 (2) — 잘못된 입력은 다시 받자
+    함수의 기본 — 코드를 상자에 담기
   
 
     
@@ -693,10 +774,6 @@
       
         
       
-        
-      
-        
-      
     
     
     
@@ -710,17 +787,17 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
   <span class="md-ellipsis">
     
   
-    Part 3 - 게임을 체계적으로 — 함수와 배열
+    Part 4 - 데이터를 묶어서 관리하자 — 배열과 구조체
   
 
     
@@ -731,12 +808,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Part 3 - 게임을 체계적으로 — 함수와 배열
+    Part 4 - 데이터를 묶어서 관리하자 — 배열과 구조체
   
 
           </label>
@@ -756,7 +833,7 @@
   <span class="md-ellipsis">
     
   
-    함수 (1) — 기능별로 코드를 나누자
+    배열 — 질문 목록을 한곳에 저장하기
   
 
     
@@ -784,63 +861,7 @@
   <span class="md-ellipsis">
     
   
-    함수 (2) — 함수 선언과 지역변수 이해하기
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../chapter09/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    배열 (1) — 질문 목록과 점수를 한 곳에 모으자
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../chapter10/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    배열 (2) — MBTI 결과를 판정하자
+    구조체 — 플레이어 정보를 하나로 묶기
   
 
     
@@ -878,10 +899,6 @@
       
         
       
-        
-      
-        
-      
     
     
     
@@ -898,17 +915,17 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   
   <span class="md-ellipsis">
     
   
-    Part 4 - 한 단계 더 — 구조체와 C언어의 깊은 세계 맛보기
+    Part 5 - 한 발짝 더 — 포인터·비트연산자 맛보기와 게임 완성
   
 
     
@@ -919,16 +936,72 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Part 4 - 한 단계 더 — 구조체와 C언어의 깊은 세계 맛보기
+    Part 5 - 한 발짝 더 — 포인터·비트연산자 맛보기와 게임 완성
   
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    포인터 맛보기 — 주소의 세계 엿보기
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    비트연산자 맛보기 — 0과 1로 말하는 컴퓨터
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -953,7 +1026,7 @@
   <span class="md-ellipsis">
     
   
-    구조체 (1) — 플레이어 정보를 하나로 묶자
+    MBTI 게임 최종 완성 — 모든 것을 하나로!
   
 
     
@@ -971,7 +1044,7 @@
   <span class="md-ellipsis">
     
   
-    구조체 (1) — 플레이어 정보를 하나로 묶자
+    MBTI 게임 최종 완성 — 모든 것을 하나로!
   
 
     
@@ -1166,118 +1239,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../chapter12/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    구조체 (2) — 구조체와 함수를 연결하자
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../chapter13/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    포인터 맛보기 — &와 *의 정체를 밝혀라
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../chapter14/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    비트연산자 맛보기 — 컴퓨터가 진짜로 이해하는 언어
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../chapter15/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    최종 완성 & 다음 여정 — MBTI 게임 총정리
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
